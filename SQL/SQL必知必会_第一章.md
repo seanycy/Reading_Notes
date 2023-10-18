@@ -1,4 +1,5 @@
-# 1、了解数据库
+# 1、了解SQL
+## 1.了解数据库
 1. 数据库
 	1. 数据库（Database）：保存有组织的数据的容器
 	2. 数据库软件应称作数据库管理系统（BDMS）。数据库是通过DBMS创建和操纵的容器
@@ -14,4 +15,46 @@
 	1. 行（Row）：表中数据按行存储，即表中的一个记录
 	2. 数据库记录（Record）和行意义相同，技术上说，行是对的
 5. 主键
-	1. 
+	1. 主键（Primary Key）：一列或几列，其值可以唯一标识表中的一行或几行
+	2. 作为主键的条件（表中任意列可作主键）：
+		1. 任意两行不具有相同的主键值
+		2. 每一行都必须具有一个主键值（主键列不允许空值NULL）
+		3. 主键列中的值不允许修改或更行
+		4. 主键值不能重用（如果某行从表中删除，它的主键不能赋给以后的新行
+
+## 2.SQL——Structured Query Language（结构化查询语言）
+Mysql—>MySQLWorkbench
+Microsoft SQL Server Express—>SQL Server Management Studio
+
+# 2.检索数据
+
+## 2.1 SELECT语句
+SELECT：从一个或多个表中检索信息
+- 注意：关键字（KeyWord）作为SQL的保留字是不能用作表或者列的名字的
+- 使用SELECT：想找什么，从哪里找
+
+## 2.2 检索单个列
+用SELECT从Products中检索一个名叫prod_name的列：
+```sql
+SELECT prod_name
+FROM Products;
+```
+- 上句SELECT返回表中所有行
+- 多条SQL语句以“;“分隔
+- SQL不区分大小写，但表名、列名和值根据DBMS不同而不同
+- 未排序数据：若查询时未明确是排序查询，啧返回数据无特定顺序
+
+上述例句也有以下两种种写法：
+第一种：
+```sql
+SELECT prod_name FROM Products;
+```
+第二种：
+```sql
+SELECT prod_name
+FROM
+Products;
+```
+
+## 2.3 检索多个列
+从一个表中检索多个列，需要在SELECT后面给出多个列名，列名之间以逗号隔开
