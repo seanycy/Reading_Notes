@@ -18,8 +18,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6f31e8d23b4cf11d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "5e7e8d2b586f08c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "第4课_过滤数据.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "第3课_排序检索数据.md",
+                "file": "第4课_过滤数据.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "第3课_排序检索数据.md",
+                "file": "第4课_过滤数据.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第3课_排序检索数据.md"
+                "file": "第4课_过滤数据.md"
               }
             }
           }
@@ -148,11 +169,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "000706f73e08088c",
+  "active": "5e7e8d2b586f08c9",
   "lastOpenFiles": [
+    "第3课_排序检索数据.md",
+    "第4课_过滤数据.md",
     "SQL必知必会_目录.md",
     "SQL必知必会_第一章.md",
-    "第3课_排序检索数据.md",
     "未命名 1.canvas",
     "未命名.canvas"
   ]
