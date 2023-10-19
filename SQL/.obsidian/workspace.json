@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "be6cad5140c9576e",
+        "id": "979348328d64a7b3",
         "type": "tabs",
         "children": [
           {
-            "id": "fd569cc47f85f9e9",
+            "id": "34898af4e9843ff4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL必知必会_第一章.md",
+                "file": "第3课_排序检索数据.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL必知必会_第一章.md",
+                "file": "第3课_排序检索数据.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL必知必会_第一章.md",
+                "file": "第3课_排序检索数据.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL必知必会_第一章.md"
+                "file": "第3课_排序检索数据.md"
               }
             }
           }
@@ -147,10 +148,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fd569cc47f85f9e9",
+  "active": "000706f73e08088c",
   "lastOpenFiles": [
+    "SQL必知必会_目录.md",
+    "SQL必知必会_第一章.md",
+    "第3课_排序检索数据.md",
     "未命名 1.canvas",
-    "未命名.canvas",
-    "SQL必知必会_第一章.md"
+    "未命名.canvas"
   ]
 }
