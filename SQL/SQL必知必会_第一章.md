@@ -57,4 +57,75 @@ Products;
 ```
 
 ## 2.3 检索多个列
-从一个表中检索多个列，需要在SELECT后面给出多个列名，列名之间以逗号隔开
+从一个表中检索多个列，需要在SELECT后面给出多个列名，列名之间以逗号隔开。
+**- 注意：最后一个列名不加逗号**
+```sql
+SELECT prod_id,prod_name,pro_price
+FROM Products;
+```
+
+## 2.4 检索所有列
+在实际列名的位置使用星号（* ）通配符可以实现：
+```sql
+SELECT *
+FROM Products;
+```
+给定通配符返回表中所有列，列顺序由表中物理顺序出现
+**- 注意：
+	- 检索表中所有列通常会降低检索速度和应用程序性能
+	- 通配符检索可以检索出名字未知的列**
+## 2.5 检索不同值
+```sql
+SELECT DISTINCT vend_id
+FROM Products;
+```
+SELECT DISTINCT vend_id 告诉DBMS值返回不同的值（此值具有唯一性）的vend_id行
+**- 注意：DISTINCT要放在列名前面*，其作用于所有的列，不仅仅是跟在其后的那一列*
+
+## 2.6 限制结果
+在MySQL中，限制返回结果需要使用LIMIT
+```sql
+SELECT prod_name
+FROM Products
+LIMIT 5 OFFSET 5;
+```
+LIMIT 5 OFFSET 5指示MySQL返回从第五行起的五行数据。
+LIMIT后面的5时检索的行数，OFFSET后面的5时指从哪里开始
+也就是说，LIMIT指定返回的行数，后接OFFSET指定从哪里开始
+**- 第一个被检索的行是第0行，不是第1行**
+
+上述写法与下面写法等价：
+```sql
+LIMIT 5,5；
+```
+**- 注意：逗号前面的值对应OFFSET，逗号后面的值对应OFFSET，与全写相反**
+
+## 2.7 注释
+```sql
+--这是一条注释，使用两个连字符
+
+#这是一条注释，在一行开始使用，这一整行都作为注释，部分DBMS不支持
+SELECT DISTINCT vend_id
+FROM Products;
+
+/*
+多行注释
+*/
+```
+
+## 2.8 作业
+1. 编写 SQL 语句，从 Customers 表中检索所有的 ID（cust_id）
+```sql
+SELECT cust_id FROM Customers;
+```
+
+2. OrderItems 表包含了所有已订购的产品（有些已被订购多次）。编写SQL 语句，检索并列出已订购产品（prod_id）的清单（不用列每个订单，只列出不同产品的清单）。提示：最终应该显示 7 行。
+```sql
+SELECT DISTINCT prod_id FROM Orderitems LIMIT 7;
+```
+
+1. 编写 SQL语句，检索 Customers 表中所有的列，再编写另外的 SELECT语句，仅检索顾客的 ID。使用注释，注释掉一条 SELECT 语句，以便运行另一条 SELECT 语句。（当然，要测试这两个语句。）
+```sql
+SELECT * FROM Customers;
+SELECT cust_id FROM Cutomers;
+```

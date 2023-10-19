@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ec3802800870dfbf",
+        "id": "be6cad5140c9576e",
         "type": "tabs",
         "children": [
           {
-            "id": "62dbcffc0eb1a3c3",
+            "id": "fd569cc47f85f9e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,8 +147,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "62dbcffc0eb1a3c3",
+  "active": "fd569cc47f85f9e9",
   "lastOpenFiles": [
+    "未命名 1.canvas",
+    "未命名.canvas",
     "SQL必知必会_第一章.md"
   ]
 }
