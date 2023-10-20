@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "979348328d64a7b3",
+        "id": "69b8a0ef682acc4e",
         "type": "tabs",
         "children": [
           {
-            "id": "34898af4e9843ff4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "第3课_排序检索数据.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f31e8d23b4cf11d",
+            "id": "f442aee7e7f57333",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -28,19 +16,19 @@
             }
           },
           {
-            "id": "5e7e8d2b586f08c9",
+            "id": "aca0d933643cc8cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第4课_过滤数据.md",
+                "file": "第5课_高级数据过滤.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "第4课_过滤数据.md",
+                "file": "第5课_高级数据过滤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "第4课_过滤数据.md",
+                "file": "第5课_高级数据过滤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第4课_过滤数据.md"
+                "file": "第5课_高级数据过滤.md"
               }
             }
           }
@@ -169,12 +157,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5e7e8d2b586f08c9",
+  "active": "aca0d933643cc8cf",
   "lastOpenFiles": [
+    "第5课_高级数据过滤.md",
     "第3课_排序检索数据.md",
     "第4课_过滤数据.md",
+    "第1课_了解SQL+第2课_检索数据.md",
     "SQL必知必会_目录.md",
-    "SQL必知必会_第一章.md",
     "未命名 1.canvas",
     "未命名.canvas"
   ]
