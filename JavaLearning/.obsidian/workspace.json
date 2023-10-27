@@ -1,39 +1,48 @@
 {
   "main": {
-    "id": "d1106d2bc45f8181",
+    "id": "41ba4c7d6199023f",
     "type": "split",
     "children": [
       {
-        "id": "69b8a0ef682acc4e",
+        "id": "157d7f88c0fd711e",
         "type": "tabs",
         "children": [
           {
-            "id": "19fd93db89ecf4a4",
+            "id": "ebf76bd7695d6b10",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6c720425941bcd03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第9课_汇总数据.md",
+                "file": "第四单元：对象与类.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f1c476aefecffbf8",
+    "id": "fbaed89c2ca46931",
     "type": "split",
     "children": [
       {
-        "id": "8dce23ed73eb6c78",
+        "id": "290351814116edfb",
         "type": "tabs",
         "children": [
           {
-            "id": "0ffdc85cb19090b9",
+            "id": "fe9fc49b5bbfad60",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +52,7 @@
             }
           },
           {
-            "id": "000706f73e08088c",
+            "id": "9a05fa05df1f6f79",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +67,7 @@
             }
           },
           {
-            "id": "18026249208c4a55",
+            "id": "05aa075d982206a2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "d693d1b61491c1e2",
+    "id": "45adef35f93a37d7",
     "type": "split",
     "children": [
       {
-        "id": "290b3cce387a8b24",
+        "id": "72e297add360a003",
         "type": "tabs",
         "children": [
           {
-            "id": "a5d63ce4f23c477f",
+            "id": "b9d5467e21397170",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "第9课_汇总数据.md",
+                "file": "第四单元：对象与类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +107,19 @@
             }
           },
           {
-            "id": "6a3cbd90f8e5fd0e",
+            "id": "1a2bf4191c16340b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "第9课_汇总数据.md",
+                "file": "第四单元：对象与类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7e08c1faf87489d8",
+            "id": "d1eec5f07b329063",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +130,12 @@
             }
           },
           {
-            "id": "d9fe5eb4ec1500e5",
+            "id": "d77c320cf9e35c79",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "第9课_汇总数据.md"
+                "file": "第四单元：对象与类.md"
               }
             }
           }
@@ -146,18 +156,8 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "19fd93db89ecf4a4",
+  "active": "6c720425941bcd03",
   "lastOpenFiles": [
-    "第8课_使用函数处理数据.md",
-    "第9课_汇总数据.md",
-    "第1课_了解SQL+第2课_检索数据.md",
-    "第6课_用通配符进行过滤.md",
-    "第5课_高级数据过滤.md",
-    "第4课_过滤数据.md",
-    "第3课_排序检索数据.md",
-    "第7课_创建计算字段.md",
-    "SQL必知必会_目录.md",
-    "未命名 1.canvas",
-    "未命名.canvas"
+    "第四单元：对象与类.md"
   ]
 }
