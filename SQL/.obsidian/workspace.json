@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "99c65fdf0d7a93bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBMS课堂练习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -148,16 +160,18 @@
   },
   "active": "19fd93db89ecf4a4",
   "lastOpenFiles": [
-    "第8课_使用函数处理数据.md",
-    "第9课_汇总数据.md",
-    "第1课_了解SQL+第2课_检索数据.md",
     "第6课_用通配符进行过滤.md",
+    "SQL必知必会_目录.md",
+    "DBMS课堂练习.md",
+    "未命名",
+    "未命名.canvas",
+    "第9课_汇总数据.md",
+    "第8课_使用函数处理数据.md",
+    "第1课_了解SQL+第2课_检索数据.md",
     "第5课_高级数据过滤.md",
     "第4课_过滤数据.md",
     "第3课_排序检索数据.md",
     "第7课_创建计算字段.md",
-    "SQL必知必会_目录.md",
-    "未命名 1.canvas",
-    "未命名.canvas"
+    "未命名 1.canvas"
   ]
 }
