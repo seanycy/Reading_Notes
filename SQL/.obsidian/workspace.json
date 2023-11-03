@@ -4,22 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "69b8a0ef682acc4e",
+        "id": "6ebfacdb92447ef6",
         "type": "tabs",
         "children": [
           {
-            "id": "19fd93db89ecf4a4",
+            "id": "886a971f6854e8a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第8课_使用函数处理数据.md",
+                "file": "第10课_分组数据.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93dbddf5d5dab15b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "2b19108113530d35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "第11课_使用子查询.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "第8课_使用函数处理数据.md",
+                "file": "第11课_使用子查询.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "第8课_使用函数处理数据.md",
+                "file": "第11课_使用子查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第8课_使用函数处理数据.md"
+                "file": "第11课_使用子查询.md"
               }
             }
           }
@@ -147,20 +168,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "19fd93db89ecf4a4",
+  "active": "2b19108113530d35",
   "lastOpenFiles": [
+    "第11课_使用子查询.md",
+    "第10课_分组数据.md",
     "第9课_汇总数据.md",
-    "第7课_创建计算字段.md",
+    "第3课_排序检索数据.md",
+    "第5课_高级数据过滤.md",
     "第8课_使用函数处理数据.md",
+    "第4课_过滤数据.md",
     "第6课_用通配符进行过滤.md",
+    "第7课_创建计算字段.md",
     "SQL必知必会_目录.md",
     "DBMS课堂练习.md",
     "未命名",
     "未命名.canvas",
     "第1课_了解SQL+第2课_检索数据.md",
-    "第5课_高级数据过滤.md",
-    "第4课_过滤数据.md",
-    "第3课_排序检索数据.md",
     "未命名 1.canvas"
   ]
 }
