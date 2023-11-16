@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6ebfacdb92447ef6",
+        "id": "de3cf51c44a77cff",
         "type": "tabs",
         "children": [
           {
-            "id": "886a971f6854e8a5",
+            "id": "5210f1569fd5377d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第10课_分组数据.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93dbddf5d5dab15b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "2b19108113530d35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "第11课_使用子查询.md",
+                "file": "第5课_高级数据过滤.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d693d1b61491c1e2",
@@ -107,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "第11课_使用子查询.md",
+                "file": "第5课_高级数据过滤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "第11课_使用子查询.md",
+                "file": "第5课_高级数据过滤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第11课_使用子查询.md"
+                "file": "第5课_高级数据过滤.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,22 +146,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2b19108113530d35",
+  "active": "5210f1569fd5377d",
   "lastOpenFiles": [
-    "第11课_使用子查询.md",
-    "第10课_分组数据.md",
-    "第9课_汇总数据.md",
-    "第3课_排序检索数据.md",
-    "第5课_高级数据过滤.md",
-    "第8课_使用函数处理数据.md",
     "第4课_过滤数据.md",
+    "第3课_排序检索数据.md",
     "第6课_用通配符进行过滤.md",
+    "第8课_使用函数处理数据.md",
     "第7课_创建计算字段.md",
-    "SQL必知必会_目录.md",
+    "第5课_高级数据过滤.md",
+    "第11课_使用子查询.md",
+    "第1课_了解SQL+第2课_检索数据.md",
+    "第10课_分组数据.md",
+    "第12课_联结表.md",
+    "第9课_汇总数据.md",
     "DBMS课堂练习.md",
+    "SQL必知必会_目录.md",
     "未命名",
     "未命名.canvas",
-    "第1课_了解SQL+第2课_检索数据.md",
     "未命名 1.canvas"
   ]
 }
